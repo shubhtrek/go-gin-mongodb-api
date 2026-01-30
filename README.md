@@ -31,3 +31,12 @@ I've organized this project using a layered approach to keep things clean:
 ```bash
 git clone [https://github.com/shubhtrek/go-gin-mongodb-api.git](https://github.com/shubhtrek/go-gin-mongodb-api.git)
 cd go-gin-mongodb-api
+```
+
+## 📝 Example Request (POST /notes)
+```json
+{
+    "title": "My First Note",
+    "content": "This is a note saved in MongoDB!",
+    "tags": ["golang", "gin"]
+}
