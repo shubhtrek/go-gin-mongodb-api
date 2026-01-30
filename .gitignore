@@ -1,0 +1,9 @@
+# Binaries
+bin/
+tmp/
+
+# Environment variables (Crucial for security!)
+.env
+
+# Dependencies
+vendor/
